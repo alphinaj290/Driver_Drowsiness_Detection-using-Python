@@ -18,13 +18,23 @@ The system continuously monitors the driver’s eye movements and if he/she feel
 
 # Working
 Capture image/frame from webcam.
+
 Detect and isolate face, creating a Region of Interest (ROI).
+
 Identify eyes within ROI.
+
 Feed eye data to classifier.
+
 Classifier categorizes eye state (open/closed).
+
 Calculate drowsiness score based on eye/mouth state.
+
 Continuously monitor driver's eyes via webcam.
+
 Transmit data to Raspberry Pi for analysis.
+
 Classifier flags prolonged eye/mouth closure.
+
 Activate alarm for driver alert.
+
 Alarm persists until driver shows attentiveness.
