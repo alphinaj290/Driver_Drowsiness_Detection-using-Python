@@ -1,4 +1,5 @@
-# Driver_Drowsiness_Detection-using-Python
+# Driver_Drowsiness_Detection-using-Python ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-blue)
+
 A safety mechanism designed to alert drivers when they show signs of drowsiness. It uses a webcam for data collection, a Raspberry Pi for data processing, and an alarm for audible alerts.
 
 The system continuously monitors the driver’s eye movements and if he/she feels the sign of drowsiness(yawning or closing eyes) it triggers a loud alarm if the driver’s eyes remain closed for more than 10 seconds, thereby helping to prevent accidents.The system employs a deep learning framework and computer vision to detect the driver's face and analyze their state.
